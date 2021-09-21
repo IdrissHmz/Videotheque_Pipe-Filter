@@ -1,0 +1,46 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.Pane?>
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@style.css"
+            xmlns:fx="http://javafx.com/fxml" >
+
+    <AnchorPane id="sidebar" fx:id="sidebar" prefHeight="720.0" prefWidth="300.0">
+        <children>
+            <Button id="ClientButton" fx:id="ClientButton" layoutY="220.0" mnemonicParsing="false" onAction="#Clients" prefHeight="70.0" prefWidth="300.0" text="Clients">
+                <font>
+                    <Font size="18.0" />
+                </font></Button>
+            <Button id="LogoutButton" fx:id="LogoutButton" layoutX="50.0" layoutY="550.0" mnemonicParsing="false"  prefHeight="50.0" prefWidth="200.0" text="Se Deconnecter">
+                <font>
+                    <Font size="18.0" />
+                </font></Button>
+            <Button id="ItemButton" fx:id="ItemButton" layoutY="290.0" mnemonicParsing="false" onAction="#Items" prefHeight="70.0" prefWidth="300.0" text="Articles">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Button id="RentButton" fx:id="RentButton" layoutY="360.0" mnemonicParsing="false" onAction="#Rents" prefHeight="70.0" prefWidth="300.0" text="Articles Loués">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+
+            <!--<ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@images/esiquiz.png" />
+                </image>
+            </ImageView>-->
+        </children>
+    </AnchorPane>
+    <Pane id="pane" fx:id="pane" layoutX="300.0" prefHeight="720.0" prefWidth="980.0" />
+
+</AnchorPane>

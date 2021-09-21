@@ -1,0 +1,54 @@
+#mainroot, #sidebar {
+	-fx-background-color: linear-gradient(to bottom, #72c4b5, #56be7d);
+}
+
+#root, #pane {
+	-fx-background-color:#fff;
+}
+
+.date-picker, .text-area .content, .text-area .viewport, #ClientButton,  #ItemButton, #RentButton, #ProfilButton, #NoteButton {
+	-fx-background-color:transparent;
+}
+
+.text-field, .password-field, .text-area {
+	-fx-prompt-text-fill: #f1f1f1;
+	-fx-text-fill:#fff;
+	-fx-background-insets: 0;
+	-fx-background-color:transparent;
+    -fx-border-width: 2px;
+    -fx-border-color: transparent transparent #000 transparent;
+}
+.text-field:focused, .password-field:focused, .text-area:focused {
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent transparent #fff transparent;
+}
+
+.button, #LogoutButton, #ClientButton:hover,  #ItemButton:hover, #RentButton:hover, #ProfilButton:hover, #NoteButton:hover {
+	-fx-background-color:  #f68378;
+}
+
+.button:hover, #LogoutButton:hover {
+    -fx-background-color: #dd6459;
+}
+
+.button {
+	-fx-text-fill:#fff;
+}
+
+#titre {
+	-fx-font-size:32px;
+}
+
+#info {
+	-fx-text-fill:#000;
+	-fx-font-size:20px;
+}
+
+#ajouter {
+	-fx-font-size: 18px;
+	-fx-text-fill:  #f68378;
+}
+
+#ajouter:hover {
+	-fx-text-fill: #dd6459;
+}
